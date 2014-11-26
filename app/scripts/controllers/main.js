@@ -99,7 +99,7 @@ angular.module('statusieApp')
 
                 features = _.sortBy(_.forEach(data.features, function (feature) {
                     feature.visible = true;
-                }), $scope.sort);
+                }), $scope.sort || function (feature) { return feature.normalized_name;});
 
                 $scope.limit = features.length;
 
