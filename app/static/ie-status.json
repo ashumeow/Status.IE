@@ -11,7 +11,7 @@
             "ieUnprefixed": "10"
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh772925(v=vs.85).aspx",
-        "wpd": "http://docs.webplatform.org/wiki/html/elements/datalist",
+        "wpd": "https://docs.webplatform.org/wiki/html/elements/datalist",
         "demo": "",
         "id": 6090950820495360
     },
@@ -27,9 +27,10 @@
             "ieUnprefixed": ""
         },
         "msdn": "",
-        "wpd": "http://docs.webplatform.org/wiki/html/elements/details\nhttp://docs.webplatform.org/wiki/html/elements/summary",
+        "wpd": "https://docs.webplatform.org/wiki/html/elements/details",
         "demo": "",
-        "id": 5348024557502464
+        "id": 5348024557502464,
+        "uservoiceid": 6261266
     },
     {
         "name": "<img srcset>",
@@ -43,9 +44,10 @@
             "ieUnprefixed": ""
         },
         "msdn": "",
-        "wpd": "http://docs.webplatform.org/wiki/concepts/mobile_web/highdpi",
+        "wpd": "https://docs.webplatform.org/wiki/concepts/mobile_web/highdpi",
         "demo": "",
-        "id": 4644337115725824
+        "id": 4644337115725824,
+        "uservoiceid": 6261267
     },
     {
         "name": "<picture> Element",
@@ -61,7 +63,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5910974510923776
+        "id": 5910974510923776,
+        "uservoiceid": 6261271
     },
     {
         "name": "<template> Element",
@@ -75,9 +78,10 @@
             "ieUnprefixed": ""
         },
         "msdn": "",
-        "wpd": "http://docs.webplatform.org/wiki/html/elements/template",
+        "wpd": "https://docs.webplatform.org/wiki/html/elements/template",
         "demo": "",
-        "id": 5207287069147136
+        "id": 5207287069147136,
+        "uservoiceid": 6261273
     },
     {
         "name": "a[download] attribute",
@@ -91,9 +95,10 @@
             "ieUnprefixed": ""
         },
         "msdn": "",
-        "wpd": "http://docs.webplatform.org/wiki/html/elements/a",
+        "wpd": "https://docs.webplatform.org/wiki/html/elements/a",
         "demo": "",
-        "id": 6473924464345088
+        "id": 6473924464345088,
+        "uservoiceid": 6261278
     },
     {
         "name": "Application Cache",
@@ -145,7 +150,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5748496434987008
+        "id": 5748496434987008,
+        "uservoiceid": 6261284
     },	
     {
         "name": "Blob",
@@ -159,7 +165,7 @@
             "ieUnprefixed": "10"
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh772298(v=vs.85).aspx",
-        "wpd": "http://docs.webplatform.org/wiki/apis/file/Blob",
+        "wpd": "https://docs.webplatform.org/wiki/apis/file/Blob",
         "demo": "",
         "id": 5328783104016384
     },
@@ -191,7 +197,7 @@
             "ieUnprefixed": "9"
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/bg124101(v=vs.85).aspx",
-        "wpd": "http://docs.webplatform.org/wiki/apis/canvas",
+        "wpd": "https://docs.webplatform.org/wiki/apis/canvas",
         "demo": "",
         "id": 5100084685438976
     },
@@ -207,9 +213,10 @@
             "ieUnprefixed": ""
         },
         "msdn": "",
-        "wpd": "http://docs.webplatform.org/wiki/apis/canvas/CanvasRenderingContext2D/drawSystemFocusRing",
+        "wpd": "https://docs.webplatform.org/wiki/apis/canvas/CanvasRenderingContext2D/drawSystemFocusRing",
         "demo": "",
-        "id": 6413769152397312
+        "id": 6413769152397312,
+        "uservoiceid": 6261287
     },
     {
         "name": "Compositing and Blending in Canvas 2D",
@@ -225,7 +232,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 6119881720201216
+        "id": 6119881720201216,
+        "uservoiceid": 6261290
     },
     {
         "name": "Content Security Policy",
@@ -234,14 +242,15 @@
         "summary": "Allows you to create an allow list of sources of trusted content, and instructs the browser to only execute or render resources from those sources.",
         "standardStatus": "Established standard",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
-        "wpd": "http://docs.webplatform.org/wiki/tutorials/content-security-policy",
+        "wpd": "https://docs.webplatform.org/wiki/tutorials/content-security-policy",
         "demo": "",
-        "id": 5205088045891584
+        "id": 5205088045891584,
+        "uservoiceid": 6511917
     },
     {
         "name": "CSS calc()",
@@ -255,7 +264,7 @@
             "ieUnprefixed": "9"
         },
         "msdn": "http://msdn.microsoft.com/library/ms537660#calc",
-        "wpd": "http://docs.webplatform.org/wiki/css/functions/calc",
+        "wpd": "https://docs.webplatform.org/wiki/css/functions/calc",
         "demo": "",
         "id": 5765241438732288
     },
@@ -271,7 +280,7 @@
             "ieUnprefixed": ""
         },
         "msdn": "http://msdn.microsoft.com/library/ie/hh708740",
-        "wpd": "http://docs.webplatform.org/wiki/concepts/mobile_web/responsive_design",
+        "wpd": "https://docs.webplatform.org/wiki/concepts/mobile_web/responsive_design",
         "demo": "",
         "id": 4737164243894272
     },
@@ -287,7 +296,7 @@
             "ieUnprefixed": "11"
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh772044(v=vs.85).aspx",
-        "wpd": "http://docs.webplatform.org/wiki/css/properties/touch-action",
+        "wpd": "https://docs.webplatform.org/wiki/css/properties/touch-action",
         "demo": "",
         "id": 5912074022551552
     },
@@ -305,14 +314,15 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 6401356696911872
+        "id": 6401356696911872,
+        "uservoiceid": 6261292
     },
     {
         "name": "CSS Will Change",
         "category": "CSS",
-        "link": "http://tabatkins.github.io/specs/css-will-change/",
+        "link": "http://dev.w3.org/csswg/css-will-change/",
         "summary": "Adds a will-change CSS property, that can be used to signal that a particular property is likely to be changed in the future, or that an element's content is likely to change.",
-        "standardStatus": "Public Proposal",
+        "standardStatus": "Working draft or equivalent",
         "ieStatus": {
             "text": "Under Consideration",
             "iePrefixed": "",
@@ -321,7 +331,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5954199330226176
+        "id": 5954199330226176,
+        "uservoiceid": 6261294
     },
     {
         "name": "CSSOM View smooth scroll API",
@@ -337,7 +348,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5812155903377408
+        "id": 5812155903377408,
+        "uservoiceid": 6261297
     },
     {
         "name": "Custom Elements",
@@ -353,7 +365,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 4642138092470272
+        "id": 4642138092470272,
+        "uservoiceid": 6261298
     },
     {
         "name": "Device Motion",
@@ -383,7 +396,7 @@
             "ieUnprefixed": "11"
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/dn342897(v=vs.85).aspx",
-        "wpd": "http://docs.webplatform.org/wiki/tutorials/device_orientation",
+        "wpd": "https://docs.webplatform.org/wiki/tutorials/device_orientation",
         "demo": "",
         "id": 5874690627207168
     },
@@ -430,8 +443,8 @@
             "iePrefixed": "",
             "ieUnprefixed": "8"
         },
-        "msdn": "http://msdn.microsoft.com/en-us/library/ie/ms536945(v=vs.85).aspx\nhttp://msdn.microsoft.com/en-us/library/ie/ms536946(v=vs.85).aspx",
-        "wpd": "http://docs.webplatform.org/wiki/dom/MouseEvent/mouseenter\nhttp://docs.webplatform.org/wiki/dom/MouseEvent/mouseleave",
+        "msdn": "http://msdn.microsoft.com/en-us/library/ie/ms536945(v=vs.85).aspx",
+        "wpd": "https://docs.webplatform.org/wiki/dom/MouseEvent/mouseenter",
         "demo": "",
         "id": 4889528208719872
     },
@@ -447,7 +460,7 @@
             "ieUnprefixed": "9"
         },
         "msdn": "http://msdn.microsoft.com/library/ie/ff974352",
-        "wpd": "http://docs.webplatform.org/wiki/dom/WheelEvent",
+        "wpd": "https://docs.webplatform.org/wiki/dom/WheelEvent",
         "demo": "",
         "id": 5388191091654656
     },
@@ -465,7 +478,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5733953138851840
+        "id": 5733953138851840,
+        "uservoiceid": 6261304
     },
     {
         "name": "Encrypted Media Extensions",
@@ -502,18 +516,18 @@
     {
         "name": "Filters",
         "category": "CSS",
-        "link": "https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html",
-        "summary": "Apply (SVG-like) filter effects to arbitrary DOM elements.",
+        "link": "https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/Overview.html",
+        "summary": "Apply filter effects to arbitrary DOM elements.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "Under Consideration",
+            "text": "In Development",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
-        "msdn": "http://msdn.microsoft.com/en-us/library/ie/ms537452(v=vs.85).aspx",
-        "wpd": "http://docs.webplatform.org/wiki/tutorials/css_filters",
+        "wpd": "https://docs.webplatform.org/wiki/tutorials/css_filters",
         "demo": "",
-        "id": 5822463824887808
+        "id": 5822463824887808,
+        "uservoiceid": 6261306
     },
     {
         "name": "Flexbox",
@@ -527,7 +541,7 @@
             "ieUnprefixed": "11"
         },
         "msdn": "http://msdn.microsoft.com/library/ie/bg124109",
-        "wpd": "http://docs.webplatform.org/wiki/css/flexbox",
+        "wpd": "https://docs.webplatform.org/wiki/css/flexbox",
         "demo": "",
         "id": 4837301406400512
     },
@@ -543,7 +557,7 @@
             "ieUnprefixed": ""
         },
         "msdn": "http://msdn.microsoft.com/library/ie/dn265028",
-        "wpd": "http://docs.webplatform.org/wiki/tutorials/using_the_full-screen_api",
+        "wpd": "https://docs.webplatform.org/wiki/tutorials/using_the_full-screen_api",
         "demo": "",
         "id": 5259513871466496
     },
@@ -554,14 +568,15 @@
         "summary": "Gives JS access to a game controller via USB.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "IE Developer Channel",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
-        "wpd": "http://docs.webplatform.org/wiki/apis/gamepad/Gamepad",
+        "wpd": "https://docs.webplatform.org/wiki/apis/gamepad/Gamepad",
         "demo": "",
-        "id": 5118776383111168
+        "id": 5118776383111168,
+        "uservoiceid": 6509110
     },
     {
         "name": "Generated Content for Paged Media",
@@ -577,7 +592,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5400251359821824
+        "id": 5400251359821824,
+        "uservoiceid": 6261314
     },
     {
         "name": "Geolocation",
@@ -591,7 +607,7 @@
             "ieUnprefixed": "9"
         },
         "msdn": "http://msdn.microsoft.com/ie/hh410106#_HTML5_geolocation",
-        "wpd": "http://docs.webplatform.org/wiki/apis/geolocation",
+        "wpd": "https://docs.webplatform.org/wiki/apis/geolocation",
         "demo": "",
         "id": 6348855016685568
     },
@@ -607,9 +623,10 @@
             "ieUnprefixed": ""
         },
         "msdn": "",
-        "wpd": "http://docs.webplatform.org/wiki/dom/Navigator/getUserMedia",
+        "wpd": "https://docs.webplatform.org/wiki/dom/Navigator/getUserMedia",
         "demo": "",
-        "id": 6067380039974912
+        "id": 6067380039974912,
+        "uservoiceid": 6573558
     },
     {
         "name": "Gradients",
@@ -623,7 +640,7 @@
             "ieUnprefixed": "10"
         },
         "msdn": "http://msdn.microsoft.com/library/ie/hh673532",
-        "wpd": "http://docs.webplatform.org/wiki/tutorials/CSS_gradients",
+        "wpd": "https://docs.webplatform.org/wiki/tutorials/CSS_gradients",
         "demo": "",
         "id": 5785905063264256
     },
@@ -639,7 +656,7 @@
             "ieUnprefixed": ""
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh673533",
-        "wpd": "http://docs.webplatform.org/wiki/css/properties/grid",
+        "wpd": "https://docs.webplatform.org/wiki/css/properties/grid",
         "demo": "",
         "id": 4589636412243968
     },
@@ -657,7 +674,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5144752345317376
+        "id": 5144752345317376,
+        "uservoiceid": 6261318
     },
     {
         "name": "HTTP Client Hints",
@@ -673,7 +691,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5504430086553600
+        "id": 5504430086553600,
+        "uservoiceid": 6261321
     },
     {
         "name": "HTTP Strict Transport Security (HSTS)",
@@ -698,7 +717,7 @@
         "summary": "A faster protocol for transporting web content.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "Shipped",
+            "text": "Deprecated",
             "iePrefixed": "",
             "ieUnprefixed": "11"
         },
@@ -714,7 +733,7 @@
         "summary": "A faster protocol for transporting web content being standardized by the IETF.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -745,7 +764,7 @@
             "ieUnprefixed": "10"
         },
         "msdn": "http://msdn.microsoft.com/library/ie/hh673561",
-        "wpd": "http://docs.webplatform.org/wiki/html/attributes/sandbox",
+        "wpd": "https://docs.webplatform.org/wiki/html/attributes/sandbox",
         "demo": "",
         "id": 5715536319086592
     },
@@ -763,7 +782,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 6630329993396224
+        "id": 6630329993396224,
+        "uservoiceid": 6261330
     },
     {
         "name": "iframe[srcdoc] attribute",
@@ -779,7 +799,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5222955109842944
+        "id": 5222955109842944,
+        "uservoiceid": 6261334
     },
     {
         "name": "IME API",
@@ -809,7 +830,7 @@
             "ieUnprefixed": "10"
         },
         "msdn": "http://msdn.microsoft.com/library/ie/hh673548",
-        "wpd": "http://docs.webplatform.org/wiki/apis/indexeddb",
+        "wpd": "https://docs.webplatform.org/wiki/apis/indexeddb",
         "demo": "",
         "id": 6507459568992256
     },
@@ -851,14 +872,14 @@
             "ieUnprefixed": "11"
         },
         "msdn": "http://msdn.microsoft.com/library/ie/dn263029",
-        "wpd": "http://docs.webplatform.org/wiki/javascript/Array/map",
+        "wpd": "",
         "demo": "",
         "id": 4818609708728320
     },
     {
         "name": "Masks",
         "category": "CSS",
-        "link": "https://dvcs.w3.org/hg/FXTF/raw-file/tip/masking/index.html",
+        "link": "https://dvcs.w3.org/hg/FXTF/raw-file/tip/css-masking-1/index.html",
         "summary": "Allows hiding of portions of a visible elements.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
@@ -867,9 +888,10 @@
             "ieUnprefixed": ""
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/ff972267(v=vs.85).aspx",
-        "wpd": "http://docs.webplatform.org/wiki/css/properties/mask",
+        "wpd": "https://docs.webplatform.org/wiki/css/properties/mask",
         "demo": "",
-        "id": 5381559662149632
+        "id": 5381559662149632,
+        "uservoiceid": 6261341
     },
     {
         "name": "matchMedia",
@@ -883,7 +905,7 @@
             "ieUnprefixed": "10"
         },
         "msdn": "http://msdn.microsoft.com/library/ie/hh772743",
-        "wpd": "http://docs.webplatform.org/wiki/css/media_queries/apis/matchMedia",
+        "wpd": "https://docs.webplatform.org/wiki/css/media_queries/apis/matchMedia",
         "demo": "",
         "id": 4677872220372992
     },
@@ -899,9 +921,10 @@
             "ieUnprefixed": ""
         },
         "msdn": "",
-        "wpd": "http://docs.webplatform.org/wiki/mathml",
+        "wpd": "https://docs.webplatform.org/wiki/mathml",
         "demo": "",
-        "id": 5240822173794304
+        "id": 5240822173794304,
+        "uservoiceid": 6508572
     },
     {
         "name": "Media Queries: resolution feature",
@@ -915,7 +938,7 @@
             "ieUnprefixed": "9"
         },
         "msdn": "http://msdn.microsoft.com/ie/hh393506#_CSS3_Media_Queries",
-        "wpd": "http://docs.webplatform.org/wiki/css/atrules/%40media",
+        "wpd": "https://docs.webplatform.org/wiki/css/atrules/%40media",
         "demo": "",
         "id": 5944509615570944
     },
@@ -931,7 +954,7 @@
             "ieUnprefixed": "11"
         },
         "msdn": "http://msdn.microsoft.com/library/ie/bg182646#mse",
-        "wpd": "http://docs.webplatform.org/wiki/apis/media_source_extensions",
+        "wpd": "https://docs.webplatform.org/wiki/apis/media_source_extensions",
         "demo": "",
         "id": 4563797888991232
     },
@@ -949,7 +972,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5929649028726784
+        "id": 5929649028726784,
+        "uservoiceid": 6261360
     },
     {
         "name": "Microdata",
@@ -965,7 +989,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 6428569609699328
+        "id": 6428569609699328,
+        "uservoiceid": 6508451
     },
     {
         "name": "CSS Transforms - preserve-3d",
@@ -974,7 +999,7 @@
         "summary": "Augments existing CSS 3d transforms by facilitating the construction of complex 3d scenes.",
         "standardStatus": "Established standard",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -991,7 +1016,8 @@
         "safari_views": {
             "text": "Shipped",
             "value": 1
-        }
+        },
+        "uservoiceid": 6510941
     },
     {
         "name": "mix-blend-mode",
@@ -1007,13 +1033,14 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 6362616360337408
+        "id": 6362616360337408,
+        "uservoiceid": 6263617
     },
     {
         "name": "Cross-Domain Font Loading",
         "category": "CSS",
         "link": "http://www.w3.org/TR/WOFF/",
-        "summary": "Increases interoperability with the web by relaxing domain and licensing metadata restrictions for EOT, WOFF, and TrueType fonts.",
+        "summary": "Increases interoperability with the web by relaxing domain and licensing metadata restrictions for EOT, WOFF, and TrueType fonts. Development work for IE is currently for Windows Phone only.",
         "standardStatus": "Established standard",
         "ieStatus": {
             "text": "In Development",
@@ -1047,7 +1074,7 @@
             "ieUnprefixed": "10"
         },
         "msdn": "http://msdn.microsoft.com/library/ie/hh673534",
-        "wpd": "http://docs.webplatform.org/wiki/css/properties/column-count",
+        "wpd": "https://docs.webplatform.org/wiki/css/properties/column-count",
         "demo": "",
         "id": 6526151266664448
     },
@@ -1079,7 +1106,7 @@
             "ieUnprefixed": "9"
         },
         "msdn": "http://msdn.microsoft.com/library/ie/hh673552",
-        "wpd": "http://docs.webplatform.org/wiki/apis/navigation_timing",
+        "wpd": "https://docs.webplatform.org/wiki/apis/navigation_timing",
         "demo": "",
         "id": 5584144679567360
     },
@@ -1095,14 +1122,14 @@
             "ieUnprefixed": "10"
         },
         "msdn": "http://msdn.microsoft.com/library/ie/hh673553",
-        "wpd": "http://docs.webplatform.org/wiki/dom/Document/visibilitychange",
+        "wpd": "https://docs.webplatform.org/wiki/dom/Document/visibilitychange",
         "demo": "",
         "id": 5689697795833856
     },
     {
         "name": "Pointer Events",
         "category": "User input",
-        "link": "http://www.w3.org/html/wg/drafts/html/master/forms.html#attr-fe-inputmode",
+        "link": "https://dvcs.w3.org/hg/pointerevents/raw-file/tip/pointerEvents.html",
         "summary": "Unified pointer input API (e.g. mouse, pen, touch input) which addresses several existing problems (especially on touchscreen laptops) and provides future extensibility.",
         "standardStatus": "Established standard",
         "ieStatus": {
@@ -1111,7 +1138,7 @@
             "ieUnprefixed": "11"
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/dn433244(v=vs.85).aspx",
-        "wpd": "http://docs.webplatform.org/wiki/PointerEvents",
+        "wpd": "https://docs.webplatform.org/wiki/PointerEvents",
         "demo": "",
         "id": 4504699138998272
     },
@@ -1126,7 +1153,7 @@
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
-        "shipped_opera_milestone": null,
+        "shipped_opera_milestone": true,
         "msdn": "",
         "wpd": "",
         "demo": "",
@@ -1146,7 +1173,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 6190250464378880
+        "id": 6190250464378880,
+        "uservoiceid": 6263621
     },
     {
         "name": "postMessage",
@@ -1160,7 +1188,7 @@
             "ieUnprefixed": "8"
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/cc197015(v=vs.85).aspx",
-        "wpd": "http://docs.webplatform.org/wiki/dom/Window/postMessage",
+        "wpd": "https://docs.webplatform.org/wiki/dom/Window/postMessage",
         "demo": "",
         "id": 4786174115708928
     },
@@ -1176,9 +1204,10 @@
             "ieUnprefixed": ""
         },
         "msdn": "",
-        "wpd": "http://docs.webplatform.org/wiki/apis/quota_management",
+        "wpd": "https://docs.webplatform.org/wiki/apis/quota_management",
         "demo": "",
-        "id": 6218562888794112
+        "id": 6218562888794112,
+        "uservoiceid": 6508438
     },
     {
         "name": "Regions",
@@ -1192,7 +1221,7 @@
             "ieUnprefixed": ""
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh772715(v=vs.85).aspx",
-        "wpd": "http://docs.webplatform.org/wiki/apis/css-regions",
+        "wpd": "https://docs.webplatform.org/wiki/apis/css-regions",
         "demo": "",
         "id": 5655612935372800
     },
@@ -1208,7 +1237,7 @@
             "ieUnprefixed": "10"
         },
         "msdn": "http://msdn.microsoft.com/library/ie/hh920765",
-        "wpd": "http://docs.webplatform.org/wiki/dom/Window/requestAnimationFrame",
+        "wpd": "https://docs.webplatform.org/wiki/dom/Window/requestAnimationFrame",
         "demo": "",
         "id": 5233400470306816
     },
@@ -1224,7 +1253,7 @@
             "ieUnprefixed": "10"
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh772738(v=vs.85).aspx",
-        "wpd": "http://docs.webplatform.org/wiki/apis/resource_timing",
+        "wpd": "https://docs.webplatform.org/wiki/apis/resource_timing",
         "demo": "",
         "id": 5796350423728128
     },
@@ -1242,7 +1271,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 6561526227927040
+        "id": 6561526227927040,
+        "uservoiceid": 6263630
     },
     {
         "name": "Set",
@@ -1306,7 +1336,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5760616295825408
+        "id": 5760616295825408,
+        "uservoiceid": 6263636
     },
     {
         "name": "TLS 1.2",
@@ -1352,14 +1383,14 @@
             "ieUnprefixed": "10"
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh772059(v=vs.85).aspx",
-        "wpd": "http://docs.webplatform.org/wiki/tutorials/css_transforms",
+        "wpd": "https://docs.webplatform.org/wiki/tutorials/css_transforms",
         "demo": "",
         "id": 6437640580628480
     },
     {
         "name": "Typed Arrays",
         "category": "Performance",
-        "link": "http://www.khronos.org/registry/typedarray/specs/latest/",
+        "link": "https://www.khronos.org/registry/typedarray/specs/latest/",
         "summary": "Buffers for holding binary data and working with WebGL & Audio API: ArrayBuffer, Float32Array , Int16Array, Uint8Array, etc.)",
         "standardStatus": "Established standard",
         "ieStatus": {
@@ -1386,7 +1417,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5593215650496512
+        "id": 5593215650496512,
+        "uservoiceid": 6508637
     },
     {
         "name": "URL API",
@@ -1402,7 +1434,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5675829346435072
+        "id": 5675829346435072,
+        "uservoiceid": 6263638
     },
     {
         "name": "User Timing API",
@@ -1416,7 +1449,7 @@
             "ieUnprefixed": "10"
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh772738(v=vs.85).aspx",
-        "wpd": "http://docs.webplatform.org/wiki/apis/user_timing",
+        "wpd": "https://docs.webplatform.org/wiki/apis/user_timing",
         "demo": "",
         "id": 5066549580791808
     },
@@ -1432,9 +1465,10 @@
             "ieUnprefixed": ""
         },
         "msdn": "",
-        "wpd": "http://docs.webplatform.org/wiki/apis/vibration",
+        "wpd": "https://docs.webplatform.org/wiki/apis/vibration",
         "demo": "",
-        "id": 5698768766763008
+        "id": 5698768766763008,
+        "uservoiceid": 6263645
     },
     {
         "name": "WeakMap",
@@ -1466,7 +1500,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 4854343836631040
+        "id": 4854343836631040,
+        "uservoiceid": 6263650
     },
     {
         "name": "Web Crypto API",
@@ -1498,7 +1533,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 4923613069180928
+        "id": 4923613069180928,
+        "uservoiceid": 6508429
     },
     {
         "name": "Web Notifications",
@@ -1514,7 +1550,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5064350557536256
+        "id": 5064350557536256,
+        "uservoiceid": 6263658
     },
     {
         "name": "Web Speech API (input)",
@@ -1530,7 +1567,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5908775487668224
+        "id": 5908775487668224,
+        "uservoiceid": 6263660
     },
     {
         "name": "Web Speech API (synthesis)",
@@ -1546,7 +1584,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 4782875580825600
+        "id": 4782875580825600,
+        "uservoiceid": 6263662
     },
     {
         "name": "Web SQL Database",
@@ -1562,7 +1601,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 6330987952734208
+        "id": 6330987952734208,
+        "uservoiceid": 6508421
     },
     {
         "name": "Web Storage",
@@ -1576,14 +1616,14 @@
             "ieUnprefixed": "8"
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/bg142799(v=vs.85).aspx",
-        "wpd": "http://docs.webplatform.org/wiki/apis/web-storage",
+        "wpd": "https://docs.webplatform.org/wiki/apis/web-storage",
         "demo": "",
         "id": 5345825534246912
     },
     {
         "name": "WebGL  (Canvas 3D)",
         "category": "Graphics",
-        "link": "http://www.khronos.org/registry/webgl/specs/latest/",
+        "link": "https://www.khronos.org/registry/webgl/specs/latest/",
         "summary": "3D rendering via the <canvas> element. ",
         "standardStatus": "Established standard",
         "ieStatus": {
@@ -1592,7 +1632,7 @@
             "ieUnprefixed": ""
         },
         "msdn": "http://msdn.microsoft.com/library/ie/bg182648",
-        "wpd": "http://docs.webplatform.org/wiki/webgl",
+        "wpd": "https://docs.webplatform.org/wiki/webgl",
         "demo": "",
         "id": 6049512976023552
     },
@@ -1610,7 +1650,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 6471725441089536
+        "id": 6471725441089536,
+        "uservoiceid": 6508417
     },
     {
         "name": "WebRTC – WebRTC v1.0 API",
@@ -1624,9 +1665,10 @@
             "ieUnprefixed": ""
         },
         "msdn": "",
-        "wpd": "http://docs.webplatform.org/wiki/apis/webrtc",
+        "wpd": "https://docs.webplatform.org/wiki/apis/webrtc",
         "demo": "",
-        "id": 6612462929444864
+        "id": 6612462929444864,
+        "uservoiceid": 6508336
     },
     {
         "name": "WebRTC – Object RTC API",
@@ -1635,7 +1677,7 @@
         "summary": "Enables mobile endpoints to talk to servers and web browsers with Real-Time Communications (RTC) capabilities via native and simple JavaScript APIs",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "Under Consideration",
+            "text": "In Development",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -1652,7 +1694,8 @@
         "safari_views": {
             "text": "No public signals",
             "value": 5
-        }
+        },
+        "uservoiceid": 6263666
     },
     {
         "name": "WebSocket",
@@ -1666,7 +1709,7 @@
             "ieUnprefixed": "10"
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh673567(v=vs.85).aspx",
-        "wpd": "http://docs.webplatform.org/wiki/concepts/protocols/websocket",
+        "wpd": "https://docs.webplatform.org/wiki/concepts/protocols/websocket",
         "demo": "",
         "id": 6555138000945152,
         "opera_views": {
@@ -1686,7 +1729,7 @@
             "ieUnprefixed": "10"
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/cc304105(v=vs.85).aspx",
-        "wpd": "http://docs.webplatform.org/wiki/apis/xhr/XMLHttpRequest/timeout",
+        "wpd": "https://docs.webplatform.org/wiki/apis/xhr/XMLHttpRequest/timeout",
         "demo": "",
         "id": 6290890138058752
     },
@@ -1697,14 +1740,15 @@
         "summary": "The arrow (=>) provides a shorthand for the function keyword with lexical 'this' binding.",
         "standardStatus": "Editor's draft",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5047308127305728
+        "id": 5047308127305728,
+        "uservoiceid": 6512181
     },
     {
         "name": "Box Alignment",
@@ -1720,7 +1764,8 @@
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/bg124109(v=vs.85).aspx#setting_flexbox_alignment_",
         "wpd": "",
         "demo": "",
-        "id": 6173208034148352
+        "id": 6173208034148352,
+        "uservoiceid": 6263671
     },
     {
         "name": "CSS filter() image function",
@@ -1736,7 +1781,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5425136400334848
+        "id": 5425136400334848,
+        "uservoiceid": 6263676
     },
     {
         "name": "Default parameter",
@@ -1752,13 +1798,14 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5275456790069248
+        "id": 5275456790069248,
+        "uservoiceid": 6512273
     },
     {
         "name": "Destructuring",
         "category": "JavaScript",
         "link": "http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts",
-        "summary": "Destructuring assignment allows extracting data from arrays or objects using a syntax that mirrors array and object literals.\r\n\r\n",
+        "summary": "Destructuring assignment allows extracting data from arrays or objects using a syntax that mirrors array and object literals.",
         "standardStatus": "Editor's draft",
         "ieStatus": {
             "text": "Under Consideration",
@@ -1768,7 +1815,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 4588790303686656
+        "id": 4588790303686656,
+        "uservoiceid": 6263681
     },
     {
         "name": "Rest parameters",
@@ -1790,7 +1838,7 @@
         "name": "Ambient Light Events",
         "category": "Device",
         "link": "http://www.w3.org/TR/ambient-light/",
-        "summary": "Ambient Light Event API which is a handy way to make a web page or web app aware of any change in light intensity.\r\n",
+        "summary": "Ambient Light Event API which is a handy way to make a web page or web app aware of any change in light intensity.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
             "text": "Under Consideration",
@@ -1800,7 +1848,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5298357018820608
+        "id": 5298357018820608,
+        "uservoiceid": 6263685
     },
     {
         "name": "Battery Status API",
@@ -1814,9 +1863,10 @@
             "ieUnprefixed": ""
         },
         "msdn": "",
-        "wpd": "http://docs.webplatform.org/wiki/apis/battery_status",
+        "wpd": "https://docs.webplatform.org/wiki/apis/battery_status",
         "demo": "",
-        "id": 4537134732017664
+        "id": 4537134732017664,
+        "uservoiceid": 6263689
     },
     {
         "name": "Push API",
@@ -1832,7 +1882,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5416033485586432
+        "id": 5416033485586432,
+        "uservoiceid": 6263693
     },
     {
         "name": "Subresource Integrity",
@@ -1848,7 +1899,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 6183089948590080
+        "id": 6183089948590080,
+        "uservoiceid": 6263699
     },
     {
         "name": "CSS Intrinsic Sizing",
@@ -1864,7 +1916,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5901353784180736
+        "id": 5901353784180736,
+        "uservoiceid": 6263702
     },
     {
         "name": "CSS font-stretch",
@@ -1896,7 +1949,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5663034638860288
+        "id": 5663034638860288,
+        "uservoiceid": 6263706
     },
     {
         "name": "JS iterators (i.e. the for-of feature)",
@@ -1905,12 +1959,12 @@
         "summary": "Iterates over iterable objects (including arrays, array-like objects, iterators and generators), invoking a custom iteration hook with statements to be executed for the value of each distinct property.",
         "standardStatus": "Editor's draft",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
-        "wpd": "http://docs.webplatform.org/wiki/concepts/programming/javascript/iterators",
+        "wpd": "https://docs.webplatform.org/wiki/concepts/programming/javascript/iterators",
         "demo": "",
         "id": 4696563918045184
     },
@@ -1918,7 +1972,7 @@
         "name": "Navigation Error Logging",
         "category": "Performance",
         "link": "https://dvcs.w3.org/hg/webperf/raw-file/tip/specs/NavigationErrorLogging/Overview.html",
-        "summary": "This specification defines an interface to store and retrieve error data related to the previous navigations of a document.\r\n",
+        "summary": "This specification defines an interface to store and retrieve error data related to the previous navigations of a document.",
         "standardStatus": "Editor's draft",
         "ieStatus": {
             "text": "Under Consideration",
@@ -1928,7 +1982,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5391249376804864
+        "id": 5391249376804864,
+        "uservoiceid": 6263712
     },
     {
         "name": "Shapes",
@@ -1944,7 +1999,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5163890719588352
+        "id": 5163890719588352,
+        "uservoiceid": 6263716
     },
     {
         "name": "Symbols",
@@ -1953,7 +2009,7 @@
         "summary": "Allows properties to be added to existing objects without the possibility of interference with the existing properties, unintended visibility, or with other uncoordinated additions by any other code.",
         "standardStatus": "Editor's draft",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -1965,7 +2021,7 @@
     {
         "name": "WebGL Shared Resources",
         "category": "Graphics",
-        "link": "http://www.khronos.org/registry/webgl/extensions/WEBGL_shared_resources/",
+        "link": "https://www.khronos.org/registry/webgl/extensions/WEBGL_shared_resources/",
         "summary": "Allow sharing resources between 2 or more WebGL contexts",
         "standardStatus": "Established standard",
         "ieStatus": {
@@ -1976,7 +2032,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5486563022602240
+        "id": 5486563022602240,
+        "uservoiceid": 6263719
     },
     {
         "name": "inputmode",
@@ -1992,7 +2049,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 6225984592281600
+        "id": 6225984592281600,
+        "uservoiceid": 6263729
     },
     {
         "name": "Object.observe()",
@@ -2008,13 +2066,14 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 6147094632988672
+        "id": 6147094632988672,
+        "uservoiceid": 6263750
     },
     {
         "name": "Shadow DOM (unprefixed)",
         "category": "Web Components",
         "link": "http://dvcs.w3.org/hg/webcomponents/raw-file/tip/spec/shadow/index.html",
-        "summary": "Enables DOM tree encapsulation. Without it, widgets may inadvertently break pages by using conflicting CSS selectors, class or id names, or JavaScript variables.\r\n\r\n",
+        "summary": "Enables DOM tree encapsulation. Without it, widgets may inadvertently break pages by using conflicting CSS selectors, class or id names, or JavaScript variables.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
             "text": "Under Consideration",
@@ -2024,7 +2083,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 4507242028072960
+        "id": 4507242028072960,
+        "uservoiceid": 6263785
     },
     {
         "name": "Web Audio API",
@@ -2038,9 +2098,10 @@
             "ieUnprefixed": ""
         },
         "msdn": "",
-        "wpd": "http://docs.webplatform.org/wiki/apis/webaudio",
+        "wpd": "https://docs.webplatform.org/wiki/apis/webaudio",
         "demo": "",
-        "id": 6261718720184320
+        "id": 6261718720184320,
+        "uservoiceid": 6557946
     },
     {
         "name": "object-fit and object-position",
@@ -2054,9 +2115,10 @@
             "ieUnprefixed": ""
         },
         "msdn": "",
-        "wpd": "http://docs.webplatform.org/wiki/css/properties/object-fit\n",
+        "wpd": "https://docs.webplatform.org/wiki/css/properties/object-fit",
         "demo": "",
-        "id": 5302669702856704
+        "id": 5302669702856704,
+        "uservoiceid": 6263790
     },
     {
         "name": "Conditional Rules",
@@ -2072,7 +2134,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 4993981813358592
+        "id": 4993981813358592,
+        "uservoiceid": 6517589
     },
     {
         "name": "Generators",
@@ -2088,7 +2151,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 4959347197083648
+        "id": 4959347197083648,
+        "uservoiceid": 6263797
     },
     {
         "name": "Custom filters (shaders)",
@@ -2104,7 +2168,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5838406743490560
+        "id": 5838406743490560,
+        "uservoiceid": 6508326
     },
     {
         "name": "High Resolution Time",
@@ -2136,23 +2201,25 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5374137958662144
+        "id": 5374137958662144,
+        "uservoiceid": 6508310
     },
     {
-        "name": "Proxies",
+        "name": "Proxies (ES6)",
         "category": "JavaScript",
         "link": "http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts",
         "summary": "Proxies are objects for which the programmer has to define the semantics in JavaScript. ",
         "standardStatus": "Editor's draft",
         "ieStatus": {
-            "text": "Under Consideration",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 4811188005240832
+        "id": 4811188005240832,
+        "uservoiceid": 6263801
     },
     {
         "name": "Touch Events",
@@ -2168,7 +2235,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 6156165603917824
+        "id": 6156165603917824,
+        "uservoiceid": 6508302
     },
     {
         "name": "Runtime error reporting: ErrorEvent.",
@@ -2184,7 +2252,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 6416612420747264
+        "id": 6416612420747264,
+        "uservoiceid": 6263806
     },
     {
         "name": "FileWriter",
@@ -2200,7 +2269,8 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5963201313243136
+        "id": 5963201313243136,
+        "uservoiceid": 6263821
     },
     {
         "name": "FileReader",
@@ -2214,7 +2284,7 @@
             "ieUnprefixed": "10"
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh772310(v=vs.85).aspx",
-        "wpd": "http://docs.webplatform.org/wiki/apis/file/FileReader",
+        "wpd": "https://docs.webplatform.org/wiki/apis/file/FileReader",
         "demo": "",
         "id": 5171003185430528
     },
@@ -2230,9 +2300,10 @@
             "ieUnprefixed": ""
         },
         "msdn": "",
-        "wpd": "http://docs.webplatform.org/wiki/tutorials/eventsource_basics",
+        "wpd": "https://docs.webplatform.org/wiki/tutorials/eventsource_basics",
         "demo": "",
-        "id": 5311740673785856
+        "id": 5311740673785856,
+        "uservoiceid": 6263825
     },
     {
         "name": "Message Channels",
@@ -2246,7 +2317,7 @@
             "ieUnprefixed": "10"
         },
         "msdn": "http://msdn.microsoft.com/en-us/library/ie/hh673525(v=vs.85).aspx",
-        "wpd": "http://docs.webplatform.org/wiki/apis/web-messaging/MessageChannel",
+        "wpd": "https://docs.webplatform.org/wiki/apis/web-messaging/MessageChannel",
         "demo": "",
         "id": 6710044586409984
     },
@@ -2300,7 +2371,8 @@
         "safari_views": {
             "text": "No public signals",
             "value": 5
-        }
+        },
+        "uservoiceid": 6263829
     },
     {
         "name": "Beacon",
@@ -2326,7 +2398,8 @@
         "safari_views": {
             "text": "No public signals",
             "value": 5
-        }
+        },
+        "uservoiceid": 6263834
     },
     {
         "name": "Prefetch attribute",
@@ -2430,7 +2503,8 @@
         "safari_views": {
             "text": "Shipped",
             "value": 1
-        }
+        },
+        "uservoiceid": 6512573
     },
     {
         "name": "Screen Orientation API",
@@ -2485,43 +2559,17 @@
         }
     },
     {
-        "name": "ES6 Array, Math, Number and String methods",
-        "category": "JavaScript",
-        "link": "http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts",
-        "summary": "Adds a set of new Array, Math, Number and String helper methods. ",
-        "standardStatus": "Working draft or equivalent",
-        "ieStatus": {
-            "text": "In Development",
-            "iePrefixed": "",
-            "ieUnprefixed": ""
-        },
-        "msdn": "",
-        "wpd": "",
-        "demo": "",
-        "id": null,
-        "impl_status_chrome": "In development",
-        "ff_views": {
-            "text": "In development",
-            "value": 2
-        },
-        "shipped_opera_milestone": null,
-        "safari_views": {
-            "text": "In development",
-            "value": 2
-        }
-    },
-    {
         "name": "WebDriver",
         "category": "Misc",
         "link": "http://www.w3.org/TR/webdriver/",
         "summary": "A platform and language-neutral interface and associated wire protocol that allows programs or scripts to introspect into, and control the behaviour of, a web browser.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "IE Developer Channel",
+            "text": "Shipped",
             "iePrefixed": "",
-            "ieUnprefixed": ""
+            "ieUnprefixed": "11"
         },
-        "msdn": "",
+        "msdn": "http://support.microsoft.com/kb/2990999",
         "wpd": "",
         "demo": "",
         "id": null,
@@ -2547,7 +2595,7 @@
             "ieUnprefixed": ""
         },
         "msdn": "",
-        "wpd": "http://docs.webplatform.org/wiki/tutorials/external_content_in_svg#Embedding_arbitrary_XML",
+        "wpd": "https://docs.webplatform.org/wiki/tutorials/external_content_in_svg#Embedding_arbitrary_XML",
         "demo": "",
         "id": null,
         "impl_status_chrome": "Enabled by default",
@@ -2559,7 +2607,8 @@
         "safari_views": {
             "text": "Shipped",
             "value": 1
-        }
+        },
+        "uservoiceid": 6522939
     },
     {
         "name": "Media Queries Level 4: Interaction Media Features (pointer and hover)",
@@ -2568,12 +2617,12 @@
         "summary": "Allows to query the presence and accuracy of the user's pointing input (e.g. for differentiating touch versus mouse). Additionally, allows the page to query whether the user's pointing input supports hover.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
-        "wpd": "http://docs.webplatform.org/wiki/css/atrules/%40media",
+        "wpd": "https://docs.webplatform.org/wiki/css/atrules/%40media",
         "demo": "",
         "id": null,
         "ff_views": {
@@ -2589,12 +2638,12 @@
     },
     {
         "name": "Selection API",
-        "category": "User Input",
+        "category": "User input",
         "link": "http://rniwa.github.io/selection-api",
         "summary": "Based on APIs from HTML5 and DOM Range, this specification includes additional methods for programmatically inspecting and modifying the selection.",
         "standardStatus": "Public Proposal",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -2620,7 +2669,7 @@
         "summary": "Adds computed properties, concise method definitions, and short-hand for properties whose value is initialized to a same-named variable.",
         "standardStatus": "Editor's Draft",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
@@ -2646,20 +2695,21 @@
         "summary": "Allows easier and cleaner asynchronous coding. Adds the Promise constructor, along with the 'all' and 'race' utility methods to the language itself.",
         "standardStatus": "Editor's Draft",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         },
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": 5681726336532480
+        "id": 5681726336532480,
+        "uservoiceid": 6512244
     },
     {
         "name": "Karaoke Web Standard",
-        "category": "User Input",
+        "category": "User input",
         "link": "https://pages.adrianba.net/karaoke/",
-        "summary": "Provides semantic language processing for two-way communication with a remote host. This new interface creates a system-to-system forced sonic reconigition on the receiving party.",
+        "summary": "Provides semantic language processing for two-way communication with a remote host. This new interface creates a system-to-system forced sonic recognition on the receiving party.",
         "standardStatus": "Established standard",
         "ieStatus": {
             "text": "Under Consideration",
@@ -2682,7 +2732,8 @@
             "text": "No Public Signals",
             "value": 5
         },
-        "impl_status_chrome": "No active development"
+        "impl_status_chrome": "No active development",
+        "uservoiceid": 6263911
     },  
     {
         "name": "SVG External Content",
@@ -2709,6 +2760,457 @@
             "text": "Shipped",
             "value": 1
         },
+        "id": null,
+        "uservoiceid": 6263916
+    },
+    {
+        "name": "Meta Referrer",
+        "category": "Security",
+        "summary": "Using the referrer metadata attribute, a document can control the behavior of the Referer HTTP header attached to requests that originate from the document.",
+        "link": "https://w3c.github.io/webappsec/specs/referrer-policy/",
+        "standardStatus": "Editor's Draft",
+        "ieStatus": {
+            "text": "In Development",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        }, 
+        "id": 5126747842412544
+    },
+    {
+        "name": "dppx Unit for the resolution Media Query",
+        "category": "CSS",
+        "summary": "One dppx unit represents the number of 'dots' in a CSS px.",
+        "link": "http://www.w3.org/TR/css3-values/#resolution",
+        "standardStatus": "Established Standard",
+        "ieStatus": {
+            "text": "In Development",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        }, 
+        "impl_status_chrome": "Enabled by default",
+        "shipped_opera_milestone": true,
+        "ff_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "Shipped",
+            "value": 1
+        },       
         "id": null
-    }
+    },
+    {
+        "name": "WAV Audio Support",
+        "category": "Multimedia",
+        "summary": "Enables PCM WAV audio support in HTML5 Audio.",
+        "link": "http://www.w3.org/html/wg/drafts/html/CR/",
+        "standardStatus": "De-facto Standard",
+        "ieStatus": {
+            "text": "Preview Release",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        }, 
+        "impl_status_chrome": "Enabled by default",
+        "shipped_opera_milestone": true,
+        "ff_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "No Public Signals",
+            "value": 1
+        },       
+        "id": null
+    },
+    {
+        "name": "DOM Event Constructors",
+        "category": "DOM",
+        "summary": "Replaces document.createEvent() and associated event object init methods with constructors for each event interface.",
+        "link": "http://w3c.github.io/dom/#constructing-events",
+        "standardStatus": "Editor's Draft",
+        "ieStatus": {
+            "text": "In Development",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        }, 
+        "impl_status_chrome": "Enabled by default",
+        "shipped_opera_milestone": true,
+        "ff_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "Shipped",
+            "value": 1
+        },       
+        "id": null
+    },
+    {
+        "name": "Math Built-ins (ES6)",
+        "category": "JavaScript",
+        "summary": "Math related functions - sign, trunc, sinh, cosh, tanh, asinh, acosh, atanh, log10, log2, hypot, fround, clz32, cbrt, log1p, expm1.",
+        "link": "https://people.mozilla.org/~jorendorff/es6-draft.html#sec-math-object",
+        "standardStatus": "Editor's Draft",
+        "ieStatus": {
+            "text": "Preview Release",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        }, 
+        "id": 5920790725787648
+    },
+    {
+        "name": "Number Built-ins (ES6)",
+        "category": "JavaScript",
+        "summary": "New methods and properties on Number, including isFinite, isInteger, isSafeInteger, isNaN, EPSILON, MIN_SAFE_INTEGER, and MAX_SAFE_INTEGER.",
+        "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
+        "standardStatus": "Editor's Draft",
+        "ieStatus": {
+            "text": "Preview Release",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        }, 
+        "impl_status_chrome": "Enabled by default",
+        "shipped_opera_milestone": true,
+        "ff_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "No Signals",
+            "value": 3
+        },       
+        "id": null
+    },
+    {
+        "name": "String Built-ins (ES6)",
+        "category": "JavaScript",
+        "summary": "New methods on String including String.raw and String.fromCodePoint. New methods on String.prototype including codePointAt, normalize, repeat, startsWith, endsWith, and contains.",
+        "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
+        "standardStatus": "Editor's Draft",
+        "ieStatus": {
+            "text": "Preview Release",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        }, 
+        "impl_status_chrome": "Enabled by default",
+        "shipped_opera_milestone": true,
+        "ff_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "No Signals",
+            "value": 3
+        },       
+        "id": null
+    },
+    {
+        "name": "Object Built-ins (ES6)",
+        "category": "JavaScript",
+        "summary": "New methods on Object including assign, is, getOwnPropertySymbols, and setPrototypeOf",
+        "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
+        "standardStatus": "Editor's Draft",
+        "ieStatus": {
+            "text": "Preview Release",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        }, 
+        "impl_status_chrome": "In development",
+        "shipped_opera_milestone": false,
+        "ff_views": {
+            "text": "In development",
+            "value": 2
+        },
+        "safari_views": {
+            "text": "No Signals",
+            "value": 3
+        },       
+        "id": null
+    },
+    {
+        "name": "RegExp Built-ins (ES6)",
+        "category": "JavaScript",
+        "summary": "New methods on RegExp.prototype including match, replace, search, and split.",
+        "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
+        "standardStatus": "Editor's Draft",
+        "ieStatus": {
+            "text": "In Development",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        }, 
+        "impl_status_chrome": "No Signals",
+        "shipped_opera_milestone": false,
+        "ff_views": {
+            "text": "No Signals",
+            "value": 3
+        },
+        "safari_views": {
+            "text": "No Signals",
+            "value": 3
+        },       
+        "id": null
+    },
+    {
+        "name": "WeakSet (ES6)",
+        "category": "JavaScript",
+        "summary": "Contains a set of objects such that those objects will be collected if they are not referenced anywhere else.",
+        "link": "https://people.mozilla.org/~jorendorff/es6-draft.html#sec-math-object",
+        "standardStatus": "Editor's Draft",
+        "ieStatus": {
+            "text": "In Development",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        }, 
+        "id": 5977677567623168
+    },
+    {
+        "name": "__proto__ (ES6)",
+        "category": "JavaScript",
+        "summary": "Support for legacy prototype manipulation similar to Object.setPrototypeOf.",
+        "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
+        "standardStatus": "Editor's Draft",
+        "ieStatus": {
+            "text": "Shipped",
+            "iePrefixed": "",
+            "ieUnprefixed": "11"
+        }, 
+        "impl_status_chrome": "Enabled by default",
+        "shipped_opera_milestone": true,
+        "ff_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "Shipped",
+            "value": 1
+        },       
+        "id": null
+    },
+    {
+        "name": "Classes (ES6)",
+        "category": "JavaScript",
+        "summary": "Syntax for declaring classes.",
+        "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
+        "standardStatus": "Editor's Draft",
+        "ieStatus": {
+            "text": "Preview Release",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        }, 
+        "id": 4633745457938432,
+        "uservoiceid": 6510201
+    },
+    {
+        "name": "Spread (ES6)",
+        "category": "JavaScript",
+        "summary": "The spread operator expands iterable expressions into individual arguments. For example, a.b(…array) is roughly the same as a.b.apply(a, array).",
+        "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
+        "standardStatus": "Editor's Draft",
+        "ieStatus": {
+            "text": "Preview Release",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        }, 
+        "impl_status_chrome": "No active development",
+        "shipped_opera_milestone": false,
+        "ff_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "No Signals",
+            "value": 3
+        },       
+        "id": null
+    },
+    {
+        "name": "Template Strings (ES6)",
+        "category": "JavaScript",
+        "summary": "String literals that allow for expressions to be evaluated and concatenated with the string literal.",
+        "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
+        "standardStatus": "Editor's Draft",
+        "ieStatus": {
+            "text": "Preview Release",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        }, 
+        "impl_status_chrome": "No active development",
+        "shipped_opera_milestone": false,
+        "ff_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "No Signals",
+            "value": 3
+        },       
+        "id": null
+    },
+    {
+        "name": "Tail Calls (ES6)",
+        "category": "JavaScript",
+        "summary": "Enables boundlessly recursive algorithms (using constant stack space) for certain code patterns.",
+        "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
+        "standardStatus": "Editor's Draft",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        }, 
+        "id": 5516876633341952
+    },
+    {
+        "name": "Subclassing (ES6)",
+        "category": "JavaScript",
+        "summary": "Allows subclassing of built-in types such as Dates and Arrays.",
+        "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
+        "standardStatus": "Editor's Draft",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        }, 
+        "impl_status_chrome": "No active development",
+        "shipped_opera_milestone": false,
+        "ff_views": {
+            "text": "No Signals",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "No Signals",
+            "value": 3
+        },       
+        "id": null
+    },
+    {
+        "name": "SIMD (ES7)",
+        "category": "JavaScript",
+        "summary": "Enables Single Instruction, Multiple Data instructions to be used from Javascript programs.",
+        "link": "https://github.com/johnmccutchan/ecmascript_simd/",
+        "standardStatus": "Editor's Draft",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        }, 
+        "impl_status_chrome": "No active development",
+        "shipped_opera_milestone": false,
+        "ff_views": {
+            "text": "In Development",
+            "value": 2
+        },
+        "safari_views": {
+            "text": "No Signals",
+            "value": 3
+        },       
+        "id": null
+    },
+    {
+        "name": "Modules (ES6)",
+        "category": "JavaScript",
+        "summary": "Language-level support for defining and consuming modules.",
+        "link": "https://people.mozilla.org/~jorendorff/es6-draft.html",
+        "standardStatus": "Editor's Draft",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        }, 
+        "impl_status_chrome": "No active development",
+        "shipped_opera_milestone": false,
+        "ff_views": {
+            "text": "No Signals",
+            "value": 3
+        },
+        "safari_views": {
+            "text": "No Signals",
+            "value": 3
+        },       
+        "id": null,
+        "uservoiceid": 6510097
+    },
+    {
+        "name": "ASM.js",
+        "category": "JavaScript",
+        "summary": "Performance options for a low-level subset of JavaScript, including recognition of the 'use asm' directive and ahead-of-time compilation.",
+        "link": "http://asmjs.org/spec/latest/",
+        "standardStatus": "Editor's Draft",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        }, 
+        "impl_status_chrome": "No active development",
+        "shipped_opera_milestone": false,
+        "ff_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "No Signals",
+            "value": 3
+        },       
+        "id": null,
+        "uservoiceid": 6509389
+    },
+    {
+        "name": "Clipboard API",
+        "category": "User input",
+        "summary": "Standard APIs for interacting with the clipboard (copy/cut/paste operations). IE currently supports a legacy model for clipboard access.",
+        "link": "http://dev.w3.org/2006/webapi/clipops/clipops.html",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        }, 
+        "impl_status_chrome": "Enabled by default",
+        "shipped_opera_milestone": true,
+        "ff_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "Shipped",
+            "value": 1
+        },       
+        "id": null,
+        "uservoiceid": 6515107
+    },
+    {
+        "name": "Web Application Manifest",
+        "category": "JavaScript",
+        "summary": "This specification defines a JSON-based manifest, which provides developers with a centralized place to put metadata associated with a web application.",
+        "link": "https://w3c.github.io/manifest/",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "id": 6488656873259008
+    },
+    {
+        "name": "Public Key Pinning Extension for HTTP",
+        "category": "Network / Connectivity",
+        "summary": "Certificate public key pinning is a mechanism which allows specifying a key that must be present in the certificate chain associated with a domain name. HTTP Public Key Pinning (HPKP) is one way of doing certificate public key pinning. In this method, site owner defines pin rules for his domain name via HTTP header. This mechanism assumes that user has had a first clean connection to the site.",
+        "link": "http://tools.ietf.org/html/draft-ietf-websec-key-pinning-21",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        }, 
+        "impl_status_chrome": "Enabled by default",
+        "shipped_opera_milestone": true,
+        "ff_views": {
+            "text": "No Public Signals",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "No Public Signals",
+            "value": 1
+        },       
+        "id": null
+    }   
 ]

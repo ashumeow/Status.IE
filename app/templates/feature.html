@@ -8,16 +8,16 @@
         <h1 data-bo-id="feature.normalized_name" class="feature_name" data-bo-text="feature.name"></h1>
 
         <div class="feature-info">
-            <p class="ie-status" data-bo-if="feature.browsers.ie.prefixed || feature.browsers.ie.unprefixed"
+            <p class="ie-status" data-bo-if="feature.position!=='Deprecated' && (feature.browsers.ie.prefixed || feature.browsers.ie.unprefixed)"
                  data-bo-text="'IE' + (feature.browsers.ie.prefixed || feature.browsers.ie.unprefixed) + '+'"
                  data-bo-title="feature.statusDescription"></p>
-            <p class="ie-status" data-bo-if="!(feature.browsers.ie.prefixed || feature.browsers.ie.unprefixed)"
+            <p class="ie-status" data-bo-if="!(feature.browsers.ie.prefixed || feature.browsers.ie.unprefixed) || feature.position==='Deprecated'"
                  data-bo-text="feature.position" data-bo-title="feature.statusDescription"></p>
         </div>
     </button>
 
     <div role="tabpanel" aria-hidden="true" data-bo-attr data-bo-attr-aria-labelledby="feature.normalized_name" class="feature-body-wrapper" data-bo-id="feature.normalized_name + '_wrapper'">
-        <p data-bo-text="feature.summary"></p> 
+        <p data-bo-text="feature.summary" class="feature-description"></p> 
 
         <p data-bo-if="feature.browsers.ie.prefixed">
             <strong>Prefixed version:</strong> IE<span data-bo-text="feature.browsers.ie.prefixed"></span>
@@ -25,6 +25,10 @@
 
         <p data-bo-if="feature.browsers.ie.unprefixed">
             <strong>Unprefixed version:</strong> IE<span data-bo-text="feature.browsers.ie.unprefixed"></span>
+        </p>
+
+        <p data-bo-if="feature.uservoice">
+            <a class="votes" data-bo-href="feature.uservoice.url" data-bo-text="feature.uservoice.votes + ' Votes'"></a>
         </p>
 
         <div class="feature-status-wrapper">
@@ -45,9 +49,9 @@
                     <span data-bo-if="!feature.browsers.firefox.link"
                           data-bo-text="feature.browsers.firefox.status + ' by Firefox'"></span>
                 </li>
-                <li class="icon-ie"
-                    data-bo-class="{'implemented': feature.browsers.ie.status === 'Shipped' || feature.browsers.ie.status === 'Prefixed' || feature.browsers.ie.status === 'IE Developer Channel', 'indevelopment' : feature.browsers.ie.status === 'In Development'}"
-                    data-bo-title="feature.browsers.ie.status==='IE Developer Channel' ? 'Shipped in IE Developer Channel' : feature.browsers.ie.status + ' by Internet Explorer'">
+                <li 
+                    data-bo-class="{'implemented': feature.browsers.ie.status === 'Shipped' || feature.browsers.ie.status === 'Prefixed' || feature.browsers.ie.status === 'Preview Release' || feature.browsers.ie.status === 'Deprecated', 'indevelopment' : feature.browsers.ie.status === 'In Development', 'icon-ie': feature.browsers.ie.status !== 'Deprecated', 'icon-ie-deprecated': feature.browsers.ie.status === 'Deprecated'}"
+                    data-bo-title="feature.browsers.ie.status==='Preview Release' ? 'Available for preview in IE' : feature.browsers.ie.status + ' by Internet Explorer'">
                     <a data-bo-if="feature.browsers.ie.link" data-bo-href="feature.browsers.ie.link"
                        data-bo-text="feature.browsers.ie.status + ' by Internet Explorer'" target="_blank"></a>
                     <span data-bo-if="!feature.browsers.ie.link"
@@ -93,5 +97,6 @@
                 <!--</li>-->
             </ul>
         </div>
+
     </div>
 </section>

@@ -3,8 +3,9 @@ angular.module('statusieApp')
     .service('Status', ['$http', '$q', function Status($http, $q) {
         'use strict';
         //We can load it locally using /static/features.json
-        var chromeStatusURL = 'http://www.chromestatus.com/features.json';
+        var chromeStatusURL = 'https://www.chromestatus.com/features.json';
         var ieStatusURL = '/features';
+        var userVoiceDataURL = '/uservoice';
 
         var observedBrowsers = _.map(['Internet Explorer', 'Chrome', 'Firefox', 'Safari', 'Opera'], function (browser) {
             return {name: browser, selected: false};
@@ -16,17 +17,19 @@ angular.module('statusieApp')
 
         var normalizedStatuses = {
             notplanned: 'Not currently planned',
+            deprecated: 'Deprecated',
             underconsideration: 'Under Consideration',
             indevelopment: 'In Development',
             notsupported: 'Not Supported',
             shipped: 'Shipped',
             implemented: 'Shipped',
             prefixed: 'Prefixed',
-            iedev: 'IE Developer Channel'
+            iedev: 'Preview Release'
         };
 
         var chromeStatus;
         var ieStatus;
+        var userVoiceData;
 
         var specFinder = function (spec) {
             if (!spec) {
@@ -88,6 +91,7 @@ angular.module('statusieApp')
         };
 
         var normalizeFeature = function (feature) {
+
             var finalFeature = {
                 name: feature.name,
                 normalized_name: feature.name.replace(/[^a-zA-Z0-9]/g, '').toLowerCase(),
@@ -96,6 +100,7 @@ angular.module('statusieApp')
                 normalized_category: feature.category.replace(/[^a-zA-Z0-9]/g, '').toLowerCase(),
                 position: feature.ieStatus.text,
                 statusDescription: statusDescriptions[feature.ieStatus.text],
+                uservoice: userVoiceData[ feature.uservoiceid ] || false,
                 browsers: {
                     chrome: {
                         status: normalizeBrowserStatus(feature.impl_status_chrome),
@@ -187,9 +192,9 @@ angular.module('statusieApp')
             },
             "created": "",
             "summary": "",
-            "bug_url": null
+            "bug_url": null,
+            "uservoice": false
         };
-
 
         var getIEStatus = function () {
             return $http.get(ieStatusURL).then(function (response) {
@@ -201,8 +206,14 @@ angular.module('statusieApp')
         var getChromeStatus = function () {
             return $http.get(chromeStatusURL).then(function (response) {
                 chromeStatus = response.data;
-
                 return chromeStatus;
+            });
+        };
+
+        var getUserVoiceData = function () {
+            return $http.get( userVoiceDataURL ).then(function ( response ) {
+                userVoiceData = response.data;
+                return userVoiceData;
             });
         };
 
@@ -235,7 +246,8 @@ angular.module('statusieApp')
                     features: mergedData,
                     categories: _.values(tempCategories),
                     browsers: observedBrowsers,
-                    ieVersions: statuses
+                    ieVersions: statuses,
+                    uservoice: userVoiceData
                 });
             }, 0);
 
@@ -243,8 +255,11 @@ angular.module('statusieApp')
         };
 
         var load = function () {
-            return $q.all([getIEStatus(), getChromeStatus()])
-                .then(mergeData);
+            return $q.all([
+                getIEStatus(), 
+                getChromeStatus(), 
+                getUserVoiceData()
+            ]).then(mergeData);
         };
 
         return {

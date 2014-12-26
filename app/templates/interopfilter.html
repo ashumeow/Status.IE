@@ -29,12 +29,12 @@
 				<li>
 					<input type="checkbox" id="ie-devchannel" data-ng-model="iestatus.iedev"
 						   checked="" data-ng-change="checkChanged()"/>
-					<label for="ie-devchannel">IE Dev Channel</label>
+					<label for="ie-devchannel">Preview Release</label>
 				</li>
 				<li>
 					<input type="checkbox" id="ie-implemented" data-ng-model="iestatus.implemented"
 						   checked="" data-ng-change="checkChanged()"/>
-					<label for="ie-implemented">Implemented in:</label>
+					<label for="ie-implemented">Supported by:</label>
 					<ul>
 						<li data-ng-class="{'disabled' : !iestatus.implemented }">
 							<input type="radio" name="ieversion" id="ie11" value="ie11"
