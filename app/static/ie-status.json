@@ -39,9 +39,13 @@
         "summary": "Enable a responsive images solution by providing the browser multiple resources in varying resolutions for a single image.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
-            "text": "Under Consideration",
+            "text": "In Development",
             "iePrefixed": "",
             "ieUnprefixed": ""
+        },
+         "safari_views": {
+            "text": "Shipped",
+            "value": 1
         },
         "msdn": "",
         "wpd": "https://docs.webplatform.org/wiki/concepts/mobile_web/highdpi",
@@ -879,7 +883,7 @@
     {
         "name": "Masks",
         "category": "CSS",
-        "link": "https://dvcs.w3.org/hg/FXTF/raw-file/tip/css-masking-1/index.html",
+        "link": "http://dev.w3.org/fxtf/css-masking-1/",
         "summary": "Allows hiding of portions of a visible elements.",
         "standardStatus": "Working draft or equivalent",
         "ieStatus": {
@@ -1440,9 +1444,9 @@
     {
         "name": "User Timing API",
         "category": "Performance",
-        "link": "https://dvcs.w3.org/hg/webperf/raw-file/tip/specs/UserTiming/Overview.html",
+        "link": "http://www.w3.org/TR/user-timing/",
         "summary": "Helps web developers measure the performance of their applications by giving them access to high precision timestamps.",
-        "standardStatus": "Working draft or equivalent",
+        "standardStatus": "Established standard",
         "ieStatus": {
             "text": "Shipped",
             "iePrefixed": "",
@@ -2483,7 +2487,7 @@
         "name": "DOM Level 3 XPath",
         "category": "DOM",
         "link": "http://www.w3.org/TR/DOM-Level-3-XPath/",
-        "summary": "Provides simple functionalities to access a DOM tree using the XPath syntax.",
+        "summary": "Provides simple functionality to access a DOM tree using the XPath syntax.",
         "standardStatus": "Established standard",
         "ieStatus": {
             "text": "In Development",
@@ -2520,17 +2524,7 @@
         "msdn": "",
         "wpd": "",
         "demo": "",
-        "id": null,
-        "impl_status_chrome": "No active development",
-        "ff_views": {
-            "text": "Shipped",
-            "value": 1
-        },
-        "shipped_opera_milestone": null,
-        "safari_views": {
-            "text": "No public signals",
-            "value": 5
-        }
+        "id": 6191285283061760
     },
     {
         "name": "CSS pointer-events",
@@ -2783,7 +2777,7 @@
         "link": "http://www.w3.org/TR/css3-values/#resolution",
         "standardStatus": "Established Standard",
         "ieStatus": {
-            "text": "In Development",
+            "text": "Preview Release",
             "iePrefixed": "",
             "ieUnprefixed": ""
         }, 
@@ -3252,5 +3246,212 @@
         "wpd": "",
         "demo": "",
         "id": 4930171014479872
+    },
+    {
+        "name": "<dialog> element for modals",
+        "category": "User input",
+        "link": "http://www.w3.org/html/wg/drafts/html/master/interactive-elements.html#the-dialog-element",
+        "summary": "An HTML element for modal and non-modal dialog boxes",
+        "standardStatus": "Working draft or equivalent",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 5770237022568448,
+        "uservoiceid": 6508895
+    }, {
+        "name": "Date related input types",
+        "category": "User Input",
+        "link": "http://www.w3.org/html/wg/drafts/html/master/forms.html#date-state-(type=date)",
+        "summary": "Input controls for picking dates via <input type='date'>,<input type='month'>, and <input type='week'>.",
+        "standardStatus": "Established Standard",
+        "ieStatus": {
+            "text": "In Development",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "safari_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "shipped_opera_milestone": true,
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 6640933999214592,
+        "uservoiceid": 6513996
+    },
+    {
+        "name": "Time related input types",
+        "category": "User Input",
+        "link": "http://www.w3.org/html/wg/drafts/html/master/forms.html#date-state-(type=time)",
+        "summary": "Input controls for picking times via <input type='time'>,<input type='datetime'>, and <input type='datetime-local'>.",
+        "standardStatus": "Established Standard",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "safari_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "shipped_opera_milestone": true,
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 6640933999214592,
+        "uservoiceid": 6513996
+    },
+    {
+        "name": "<main> element",
+        "category": "DOM",
+        "link": "http://www.w3.org/html/wg/drafts/html/master/grouping-content.html#the-main-element",
+        "summary": "Semantic HTML5 element that represents the main content of the document or application.",
+        "standardStatus": "Established Standard",
+        "ieStatus": {
+            "text": "In Development",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "impl_status_chrome": "Enabled by default",
+        "shipped_opera_milestone": true,
+        "ff_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": null,
+        "uservoiceid": 6514003
+    },
+    {
+        "name": "<keygen> element",
+        "category": "Security",
+        "link": "http://www.w3.org/TR/html5/forms.html#the-keygen-element",
+        "summary": "A form element for a key pair generator control.  Support here indicates UI for picking keys and some transport to submit them. However, significant interoperability issues exist with the DOM interfaces and protocols for this feature.",
+        "standardStatus": "Established Standard",
+        "ieStatus": {
+            "text": "Not currently planned",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "impl_status_chrome": "Enabled by default",
+        "shipped_opera_milestone": true,
+        "ff_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": null
+    },
+    {
+        "name": "Media Fragments",
+        "category": "Multimedia",
+        "link": "http://www.w3.org/TR/media-frags/",
+        "summary": "Standardizes a URL fragment syntax for specifying a fragment of a media resource.",
+        "standardStatus": "Established Standard",
+        "ieStatus": {
+            "text": "Under Consideration",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "impl_status_chrome": "Enabled by default",
+        "shipped_opera_milestone": true,
+        "ff_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": null
+    },
+    {
+        "name": "SVG+SMIL Animation",
+        "category": "Multimedia",
+        "link": "http://www.w3.org/TR/SVG/animate.html",
+        "summary": "XML-based syntax for specifying animations of SVG.",
+        "standardStatus": "Established Standard",
+        "ieStatus": {
+            "text": "Not currently planned",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "impl_status_chrome": "Enabled by default",
+        "shipped_opera_milestone": true,
+        "ff_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": null
+    },
+    {
+        "name": "Hardware Concurrency",
+        "category": "Multimedia",
+        "link": "http://wiki.whatwg.org/wiki/NavigatorCores",
+        "summary": "An API for reading the system's total number of logical processors available to the user agent, up to an optional thread limit per origin.",
+        "standardStatus": "Public Proposal",
+        "ieStatus": {
+            "text": "Not currently planned",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": 6248386202173440
+    },
+    {
+        "name": "Shared Web Workers",
+        "category": "JavaScript",
+        "link": "http://dev.w3.org/html5/workers/#shared-workers-and-the-sharedworker-interface",
+        "summary": "A special type of WebWorker that can commincate across windows/tabs for a site.",
+        "standardStatus": "Established Standard",
+        "ieStatus": {
+            "text": "Not currently planned",
+            "iePrefixed": "",
+            "ieUnprefixed": ""
+        },
+        "impl_status_chrome": "Enabled by default",
+        "shipped_opera_milestone": true,
+        "ff_views": {
+            "text": "Shipped",
+            "value": 1
+        },
+        "safari_views": {
+            "text": "No Public Signals",
+            "value": 3
+        },
+        "msdn": "",
+        "wpd": "",
+        "demo": "",
+        "id": null
     }
 ]
